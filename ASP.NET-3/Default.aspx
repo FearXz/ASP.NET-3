@@ -8,10 +8,10 @@
             <div class="row">
                 <div class="col-6">
                     <asp:TextBox ID="nome" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidatorNome" runat="server" ControlToValidate="nome" ErrorMessage="Il campo Nome è obbligatorio." />
+                  
                     <br />
                     <asp:TextBox ID="cognome" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidatorCognome" runat="server" ControlToValidate="cognome" ErrorMessage="Il campo Cognome è obbligatorio." />
+
                     <br />
                     <asp:DropDownList ID="sala" runat="server">
                         <asp:ListItem Text="SALA NORD" Value="SALA NORD"></asp:ListItem>
@@ -23,6 +23,8 @@
                     <asp:CheckBox ID="ridotto" runat="server" />
                     <br />
                     <asp:Button ID="Prenota" runat="server" Text="Prenota" OnClick="Prenota_Click" />
+
+                    <asp:Button ID="Delete" Text="Delete all" runat="server" OnClick="Delete_Click" />
 
                     <p id="risultato" runat="server"></p>
                 </div>

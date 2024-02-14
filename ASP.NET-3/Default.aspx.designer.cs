@@ -24,15 +24,6 @@ namespace ASP.NET_3
         protected global::System.Web.UI.WebControls.TextBox nome;
 
         /// <summary>
-        /// Controllo RequiredFieldValidatorNome.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorNome;
-
-        /// <summary>
         /// Controllo cognome.
         /// </summary>
         /// <remarks>
@@ -40,15 +31,6 @@ namespace ASP.NET_3
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox cognome;
-
-        /// <summary>
-        /// Controllo RequiredFieldValidatorCognome.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorCognome;
 
         /// <summary>
         /// Controllo sala.
@@ -76,6 +58,15 @@ namespace ASP.NET_3
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Prenota;
+
+        /// <summary>
+        /// Controllo Delete.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Delete;
 
         /// <summary>
         /// Controllo risultato.
